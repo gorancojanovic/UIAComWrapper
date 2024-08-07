@@ -44,7 +44,7 @@ namespace System.Windows.Automation
             }
             catch (System.Runtime.InteropServices.COMException e)
             {
-                Exception newEx; if (Utility.ConvertException(e, out newEx)) { throw newEx; } else { throw; }
+                Exception newEx; if (Utility.ConvertException(e, out newEx)) { return null; } else { return null; }
             }
         }
 

@@ -8,5 +8,5 @@ The UI Automation COM-to-.NET Adapter makes it possible to use the new Windows A
 
 Changes
 -------
-### v1.1.0.14 
-- added source indexing with [GitLink](https://github.com/GitTools/GitLink). Makes issue debugging much easier as stepping into UIAComWrapper code in VS automatically downloads proper source code from GitHub.
+### v1.1.0.15 
+- return null when GridPattern.GetItem cannot fin an element instead of throwing exception.
